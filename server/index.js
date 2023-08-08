@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const app = express()
 const PORT = 3000
 
-const DB = "mongodb+srv://jopibr:Benedicts_2010@cluster0.9ktb9jo.mongodb.net/?retryWrites=true&w=majority"
+const DB = ""
 
 const authRouter = require('./routes/auth')
 
